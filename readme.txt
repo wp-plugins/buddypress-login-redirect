@@ -1,4 +1,4 @@
-=== BP Login Redirect ===
+=== BuddyPress Login Redirect ===
 Contributors: j_p_s
 Donate link: http://appinstore.com/donate-please
 Tags: buddypress, login, redirection, profile, view, homepage
