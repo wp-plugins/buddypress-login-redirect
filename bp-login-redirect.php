@@ -81,13 +81,17 @@ function blr_settings_page()
 </p>
 </form>
 <hr />
-<b> If you like my work, kindly support me to keep my blog working by donating a small amount. For helping me and donation, <a href="http://www.appinstore.com/donate-please/">click here<img src="http://www.appinstore.com/wp-content/uploads/2012/04/donate.png" alt="donate now" /></a></b>
+<b> If you like my work, kindly support me to keep my blog working by donating a small amount. For helping me and donation, <a href="http://www.appinstore.com/p/donate.html">click here</a></b>
 <p><h2><u>My other plugins:</u></h2></p>
 <ul>
-<li><a href="http://www.appinstore.com/force-post-category-selection/">Force Post Category Selection</a></li>
-<li><a href="http://www.appinstore.com/force-post-title/">Force Post Title</a></li>
-<li><a href="http://www.appinstore.com/bp-profie-as-homepage-0-6/">BP Profile as Homepage</li>
-<li><a href="http://www.appinstore.com/schedule-your-content/">Schedule your content</a></li>
+<li>BP Login Redirect - Decide where to send your users after login</li>
+<li>Force Post Category Selection - No More Uncategoriezed Posts, No More forgetting category selections</li>
+<li>Force Post Title - No More Untitled Posts</li>
+<li>AutoSet Featured Images for Posts - No need to set featured images manually.It will do it for you automatically.</li>
+<li>Wordpress QRCODE Widget - Share your website with Style. It will generate dynamic QR Codes for whole website.</li>
+<li>Wordpress Version Remover - Save your wordpress website from hackers. It will remove the wordpress version.</li>
+<li>Schedule your Posts - Do not schedule posts now. Just schedule the content of the Post.One Post can show different content daily.</li>
+<li><a href="http://www.appinstore.com/search/label/Plugins" alt="www.appinstore.com">Click here to see my plugins.</a></li>
 </ul>
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-5002381353665916";
