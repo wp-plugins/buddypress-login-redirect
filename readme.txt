@@ -12,6 +12,7 @@ This plugin gives an option to buddypress based website owners to decide that wh
 1. Personal Profile / Personal Activity Page
 2. Site wide Activity
 3. Friends' Activity
+4. Same page before log in
 
 By default, this plugin will redirect the users to their friends' activity page after login.
 

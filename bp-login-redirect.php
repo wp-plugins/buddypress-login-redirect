@@ -5,7 +5,7 @@ Description: allows the buddypress site admins to decide where to redirect their
 Author: Jatinder Pal Singh
 Author URI: http://www.appinstore.com
 Plugin URI: http://www.appinstore.com/buddypress-login-redirect/
-Version: 2.0
+Version: 2.1
 */
 function buddypress_login_redirection($redirect_url,$request_url,$user)
 {
@@ -19,6 +19,13 @@ function buddypress_login_redirection($redirect_url,$request_url,$user)
 	{
 		$activity_slug = bp_get_activity_root_slug();
 		$redirect_url = $bp->root_domain."/".$activity_slug;
+		return $redirect_url;
+	}
+	elseif($selected_option=='four')
+	{
+		//$activity_slug = bp_get_activity_root_slug();
+		//$redirect_url = $bp->root_domain."/".$activity_slug;
+		$redirect_url = $_SERVER['HTTP_REFERER'];
 		return $redirect_url;
 	}
 	else
@@ -65,6 +72,8 @@ function blr_settings_page()
 		echo 'Personal Profile / Personal Activity';
 	elseif($opt_val=='two')
 		echo 'Site Wide Activity';
+	elseif($opt_val=='four')
+		echo 'Same page before login';
 	else
 		echo "Friends' Activity";
 	
@@ -74,6 +83,7 @@ function blr_settings_page()
 	<option value="one">Personal Profile / Personal Activity</option>
 	<option value="two">Site Wide Activity</option>
     <option value="three">Friends' Activity</option>
+<option value="four">Same page before login</option>
 </select>
 </p>
 <p class="submit">
