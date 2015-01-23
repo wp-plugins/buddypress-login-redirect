@@ -1,5 +1,6 @@
 === BP Login Redirect ===
-Contributors: Jatinder Pal Singh
+Contributors: j_p_s
+Author: Jatinder Pal Singh
 Author URI: http://www.jpsays.com
 Tags: Buddypress, Profile, Homepage, Login, Redirection, facebook
 Requires at least: 3.X

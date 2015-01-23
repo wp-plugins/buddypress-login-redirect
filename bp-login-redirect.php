@@ -2,6 +2,7 @@
 /*
 Plugin Name: BP Login Redirect
 Description: allows the buddypress site admins to decide where to redirect their users after login. Now logout redirection is set to Homepage.
+Contributors: j_p_s
 Author: Jatinder Pal Singh
 Author URI: http://www.jpsays.com
 Version: 2.2
